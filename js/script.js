@@ -23,7 +23,7 @@ function casovac() {
     footer.hide();
     setTimeout(function() {
         casovac();
-    }, 2000);  
+    }, 1500);  
     
     /* window.onload = (event) => {
         casovac();
