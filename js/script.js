@@ -5,7 +5,7 @@
 LOADING */ 
 
 
-var header = $('header');
+/*var header = $('header');
 var main = $('main');
 var footer = $('footer');
 var loading = $('.loading');
