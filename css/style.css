@@ -445,7 +445,7 @@ FOOTER */
 
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 65.625em ) {
 
     .portfolio {
         width: 604px;
