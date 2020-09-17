@@ -1,13 +1,10 @@
 body {
     max-width: 1600px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Lobster', cursive;
     letter-spacing: 1px;
-    background: rgb(167,226,217);
-    margin-left: auto;
-    margin-right: auto; 
-	/* background: linear-gradient(0deg, rgba(167,226,217,1) 0%, rgba(255,255,255,1) 50%, rgba(167,226,217,1) 100%) no-repeat; */
+    background: rgb(167,226,217); 
 }
 
 .loading {
@@ -448,10 +445,18 @@ FOOTER */
 
 }
 
+@media screen and ( max-width: 1000px ) {
+
+    .portfolio {
+        width: 604px;
+    }
+}
+
+
 @media screen and ( max-width: 900px ) {
 
     .portfolio {
-        width: 400px;
+        width: 300px;
     }
 }
 

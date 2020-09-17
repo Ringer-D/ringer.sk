@@ -1,5 +1,5 @@
 body {
-	width: 1583px;
+	max-width: 1600px;
 	margin: 0px auto;
 	padding: 0px;
 	background: rgb(167,226,217);
@@ -7,11 +7,7 @@ body {
 	-webkit-font-smoothing: antialiased;
  }
 
-/* img {
-	max-width: 100%;
-	height: auto;
-	font-size: 0;
-} */
+
 
 a {
 	color: #fff;
@@ -134,16 +130,6 @@ li:hover > ul {
 	top: 0;
 	z-index: 2;
 }
-
-/*.background {
-
-	background: #A7E2D9  url('../img/background6.png')  no-repeat ;
-	display: block;
-	width: 1315px;
-	height: 450px;
-	margin: 0px auto;
-
-}*/
 
 .gallery {
 	width: 1050px;
@@ -422,14 +408,7 @@ option {
 
 
 @import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
-/*body {
-    color: #444;
-    font-family: Montserrat;
-    background: #eee;
-    padding: 20px;
-    -webkit-font-smoothing: antialiased;
-}*/
-/*h1 { margin: 0 0 20px; }*/
+
 table {
     color: #fff;
     background: #34495E;
