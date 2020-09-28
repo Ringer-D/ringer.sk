@@ -32,8 +32,7 @@ function casovac() {
    /* -----------------------------------------------------------------------------------------------------------------------------------
    SCROLL */
    
-   var navigation = $('.navbar'),
-        navigationLinks = navigation.find('a');
+   var navigationLinks = $('.scroll');
 
     navigationLinks.on('click', function(event) {
 
@@ -100,12 +99,11 @@ button.on('click', function(){
 LIGHTBOX */
 
 
-var gallery = $('.gallery');
+var gallery = $('.ajax');
 var overlay = $('<div/>', { id: 'overlay' });
     overlay.appendTo('body').hide();
 
-
-gallery.find('a').on('click', function(event) {
+gallery.on('click','.gall', function(event) {
     
     var href = $(this).attr('href'),
         image = $('<img>', { src: href, alt: 'ringer' });
@@ -123,7 +121,8 @@ overlay.on('click', function() {
 /*----------------------------------------------------------------------------------------------------------------------------------------
 PULSOVANIE  */
     
-var pulsing = navigation.find('.pulse');
+var navigation = $('.navbar'),
+    pulsing = navigation.find('.pulse');
 
 function pulse() {
     pulsing.on('focusin', function(){
@@ -149,6 +148,31 @@ function pulse() {
 };
 
 pulse();
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+AJAX load */ 
+
+
+
+$('.ajax-link').on('click', function(event){
+
+     // nechcem ist na podstranku
+     event.preventDefault();
+
+    // vytiahnem adresu linku
+    var a = $(this),
+        li = a.parent(),
+        href = a.attr('href');
+
+        // oznacim link na ktory som klikol
+        li.addClass('active')
+            .siblings().removeClass('active');
+
+    // do elementu nacitam obsah stranky z tohto linku
+    $('.ajax').load(href + ' .portf-gallery');
+
+
+});
 
 
 
