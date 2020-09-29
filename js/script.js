@@ -175,6 +175,28 @@ $('.ajax-link').on('click', function(event){
 });
 
 
+// --------------------------------------------------------------------
+
+
+var ml = $('.ml');
+
+function zmenaMl() {
+
+    var firma = window.prompt('Zadajte názov firmy:', 'firma');
+
+    if ( firma.toLowerCase() == 'siemens' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML.pdf');
+    }
+
+};
+
+ml.on('click', function(){
+    zmenaMl();
+});
+
+
+
+
 
 
 
