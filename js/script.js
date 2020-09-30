@@ -182,10 +182,14 @@ var ml = $('.ml');
 
 function zmenaMl() {
 
-    var firma = window.prompt('Zadajte názov firmy:', 'firma');
+    var firma = window.prompt('Zadajte názov firmy:');
 
     if ( firma.toLowerCase() == 'siemens' ) {
         ml.attr('href', 'subory/Dusan_Ringer_ML.pdf');
+    }
+
+    else {
+        alert('Zadali ste nesprávny názov firmy !')
     }
 
 };
