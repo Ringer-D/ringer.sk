@@ -185,7 +185,91 @@ function zmenaMl() {
     var firma = window.prompt('Zadajte názov firmy:');
 
     if ( firma.toLowerCase() == 'siemens' ) {
-        ml.attr('href', 'subory/Dusan_Ringer_ML.pdf');
+        ml.attr('href', 'subory/Dusan_Ringer_ML_01.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'siemens healthineers' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_01.pdf');
+    } 
+
+    else if ( firma.toLowerCase() == 'webex.digital' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_02.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'mi:su design' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_03.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'art design' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_04.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'artdesign' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_04.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'lavacom' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_05.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'sedem' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_06.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'sedem - reklamná agentúra' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_06.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'koger' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_07.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'koger inc.' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_07.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'ness' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_08.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'ness košice' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_08.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'ness ke' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_08.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'globallogic' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_09.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'fpt' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_10.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'fpt slovakia' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_10.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'sudo labs' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_11.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'ringier axel springer' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_12.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'antik telecom' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_13.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'bart.sk' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_14.pdf');
+    }
+
+    else if ( firma.toLowerCase() == 'zizzy se' ) {
+        ml.attr('href', 'subory/Dusan_Ringer_ML_15.pdf');
     }
 
     else {
